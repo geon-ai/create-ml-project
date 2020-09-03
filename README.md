@@ -5,5 +5,5 @@
 Run
 
 ```shell
-hygen project
+hygen project ml
 ```
