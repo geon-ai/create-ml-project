@@ -1,0 +1,5 @@
+---
+to: models/.gitignore
+---
+*
+!.gitignore

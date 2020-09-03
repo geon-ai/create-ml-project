@@ -1,0 +1,14 @@
+{
+  "name": "create-ml-project",
+  "version": "1.0.0",
+  "description": "Generator for ml projects.",
+  "main": "index.js",
+  "repository": "https://github.com/geon-ai/create-ml-project",
+  "author": "Michael Sitchenko <michael.sitchenko@gmail.com>",
+  "license": "Apache License 2.0",
+  "private": false,
+  "devDependencies": {
+    "hygen": "^6.0.4",
+    "hygen-add": "^1.0.5"
+  }
+}
