@@ -2,7 +2,7 @@
 
 ## Generate a new project
 
-Run
+Creating a new project by running:
 
 ```shell
 hygen project ml
