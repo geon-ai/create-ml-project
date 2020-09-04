@@ -48,21 +48,23 @@ setup(
         # Notebooks
         'jupyter',
         'jupyterlab',
-
-        # Style
-        'black',
-        'nb-black',
-        'SQ-Black',
-        'pytest-black',
-        'jupyterlab-black',
-
-        # Linting
-        'pylint',
-
-        # Test
-        'pytest',
-        'pytest-sugar',
-        'pytest-watch'
     ],
+    extras_require={
+        'dev': [
+            'black',
+            'nb-black',
+            'SQ-Black',
+            'pytest-black',
+            'jupyterlab-black',
+            'pylint',
+        ],
+        'test': [
+            'pytest',
+            'pytest-sugar',
+            'pytest-watch'
+        ],
+        'build': []
+    },
+
     long_description=read('README.md'),
 )
