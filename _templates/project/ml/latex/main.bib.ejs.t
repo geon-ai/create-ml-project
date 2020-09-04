@@ -1,0 +1,3 @@
+---
+to: latex/main.bib
+---

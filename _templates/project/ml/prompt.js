@@ -47,4 +47,7 @@ module.exports = [
     name: "description",
     message: "What's your package description?",
   },
+  // institution.department
+  // institution.name
+  // institution.address
 ]
