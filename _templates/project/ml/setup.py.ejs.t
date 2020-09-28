@@ -1,7 +1,7 @@
 ---
 to: setup.py
 ---
-from os
+import os
 from setuptools import setup
 
 # Utility function to read the README file.
